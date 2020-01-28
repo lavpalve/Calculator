@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Online Arithmatic Calculator </title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body class="gradientBg">
+		<div class="layout">
+			<form>
+				<div class="inputBox">
+					<input id ="textInput" class="textInput" type="text" name="textInput" value="0"> <br>
+				</div>
+				<div class="buttonBox">
+				<table>
+					<tr>
+						<td> <input id="ar" class="button" type="button" value="AC" onclick="clearAll()"> </td>
+						<td> <input id="cr" class="button" type="button" value="C" onclick="clear1()"></td>
+						<td> <input id="pe" class="button" type="button" value="%" onclick="rem()"> </td>
+						<td> <input id="dn" class="button" type="button" value="/" onclick="div()"> </td>
+						
+					</tr>
+					<tr>
+						<td> <input id="sn" class="button" type="button" value="7" onclick="input(7)"> </td>
+						<td> <input id="et" class="button" type="button" value="8" onclick="input(8)"> </td>
+						<td> <input id="ne" class="button" type="button" value="9" onclick="input(9)"> </td>
+						<td> <input id="my" class="button" type="button" value="*" onclick="mult()"> </td>
+					</tr>
+					<tr>
+						<td> <input id="fr" class="button" type="button" value="4" onclick="input(4)"> </td>
+						<td> <input id="fe" class="button" type="button" value="5" onclick="input(5)"> </td>
+						<td> <input id="sx" class="button" type="button" value="6" onclick="input(6)"> </td>
+						<td> <input id="ms" class="button" type="button" value="-" onclick="sub()"> </td>
+					</tr>
+					<tr>
+						<td> <input id="oe" class="button" type="button" value="1" onclick="input(1)"> </td>
+						<td> <input id="to" class="button" type="button" value="2" onclick="input(2)"> </td>
+						<td> <input id="te" class="button" type="button" value="3" onclick="input(3)"> </td>
+						<td> <input id="ps" class="button" type="button"value="+" onclick="add()"> </td>
+					</tr>
+					<tr>
+						<td> <input id="dt" class="button" type="button" value="." onclick="dot()"> </td>
+						<td> <input id="zo" class="button" type="button" value="0" onclick="input(0)"> </td>
+						 <td colspan="5"> <input id="el" class="button" type="button"  value="=" onclick="equal()" style="width: 144px"> </td> 
+					</tr>
+				</table>
+				</div>
+			</form>
+		</div>
+		<script src="app.js"> </script>
+	</body>
+</html>

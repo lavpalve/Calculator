@@ -1,0 +1,46 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+.gradientBg{
+	background-image: linear-gradient(to left bottom, rgb(153,230,30),rgb(0,158,135),rgb(0,0,200));
+	background-size: cover;
+}
+.layout{
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 300px;
+	width: 298px;
+	height: 426px;
+	//border: 1px solid black;
+}
+.inputBox{
+	margin: 0px;
+	width: 298px;
+	height: 74px;
+	background-color: rgb(50,50,50);
+	//border: 2px solid rgb(200,200,200);
+	box-shadow: 2px  rgb(100,100,100);
+}
+.textInput{
+	color: rgb(255,255,0);
+	margin: 10px;
+	width: 263px;
+	height: 44px;
+	padding: 5px;
+	font-size: 33px;
+	cursor: pointer;
+	background-color: #000;
+}
+.button{
+	font-size: 20px;
+	width: 70px;
+	height: 70px;
+}
+.button:hover{
+	border: 2px solid black;
+	box-shadow: 3px 3px rgb(100,100,100);
+}
+.buttonBox{
+	background-color: rgb(50,50,50);
+}
